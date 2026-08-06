@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chay ung dung (App.dart)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/App.dart"
+    }
+  ]
+}
