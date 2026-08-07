@@ -14,7 +14,7 @@ class Repository {
   static final DioHelper _dioHelper = DioHelper();
   
   // CẤU HÌNH ĐỊA CHỈ IP MÁY CHỦ DUY NHẤT TẠI ĐÂY:
-  static const String baseUrl = "http://10.155.54.112:8080";
+  static const String baseUrl = "https://backend-nestjs-qpdb.onrender.com";
   
   final String _apiBaseUrl = baseUrl;
   // URL cho Android Emulator
