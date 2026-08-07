@@ -8,6 +8,8 @@
     <!-- Cần cho Android 13+ nếu muốn đọc ảnh/video/audio -->
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <!-- Cần cho các tính năng quét ảnh/quét CCCD/thẻ cử tri -->
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:label="app_02"
         android:name="${applicationName}"

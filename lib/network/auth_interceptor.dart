@@ -107,7 +107,7 @@ class AuthInterceptor extends Interceptor {
         request.headers['Authorization'] = 'Bearer $newAccessToken';
         dio.fetch(request)
             .then(wrapper.handler.resolve)
-            .catchError(wrapper.handler.reject);
+            .catchError((e) => wrapper.handler.reject(e as DioException));
       }
     }
     _requestsQueue.clear();

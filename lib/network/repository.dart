@@ -14,7 +14,7 @@ class Repository {
   static final DioHelper _dioHelper = DioHelper();
   
   // CẤU HÌNH ĐỊA CHỈ IP MÁY CHỦ DUY NHẤT TẠI ĐÂY:
-  static const String baseUrl = "http://127.0.0.1:8080";
+  static const String baseUrl = "http://10.155.54.112:8080";
   
   final String _apiBaseUrl = baseUrl;
   // URL cho Android Emulator

@@ -60,7 +60,6 @@ class BoardLoadingScreen extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 48,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white,
                         // Nếu logo có màu gradient như hình, bạn có thể dùng ShaderMask
                         foreground: Paint()..shader = LinearGradient(
                           colors: <Color>[Color(0xFF00C6FF), Color(0xFF0072FF)],
